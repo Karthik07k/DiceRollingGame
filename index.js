@@ -8,7 +8,7 @@ var randomdice2="images/dice"+randomNumber2+".png";
 document.querySelectorAll("img")[1].setAttribute('src',randomdice2)
    
     
-    if(randomNumber1>randomNumber2) {
+    if(randomNumber1 > randomNumber2) {
             document.querySelector("h1").innerHTML = "🚩Player 1 wins!";
     }else if(randomNumber2 > randomNumber1){
         document.querySelector("h1").innerHTML= "🚩Player 2 wins!";
