@@ -1,4 +1,4 @@
-
+function rollDice(){
     var randomNumber1=Math.floor(Math.random()*6)+1;
     var randomdice1="images/dice" +randomNumber1+ ".png";
     document.querySelectorAll("img")[0].setAttribute('src',randomdice1);
@@ -17,3 +17,4 @@ document.querySelectorAll("img")[1].setAttribute('src',randomdice2)
             document.querySelector("h1").innerHTML="Draw!";
     }
 
+}
